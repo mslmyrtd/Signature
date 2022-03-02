@@ -27,4 +27,65 @@
     text-align: center;
     padding: 60px 0;
     width: 260px;
+    background: #0005;
+    clip-path: polygon(0 0, 80% 0, 100% 15%, 100% 85%, 76% 100%, 0 100%);
 }
+.box-container .box .image img{
+    padding: 12px;
+    height: 150px;
+    width: 150px;
+    /* border-radius: 50%; */
+    box-shadow: 0 0 0 10px coral;
+    /* object-fit: cover; */
+}
+
+.box-container .box .content{
+    display: flex;
+    padding: 0 10px;
+}
+.box-container .box .content .icons{
+    background: #fff;
+    margin: 0 10px;
+}
+.box-container .box .content .icons i{
+    font-size: 20px;
+    margin: 10px 13px;
+    color: coral;
+    display: block;
+}
+.box-container .box .content .icons i:first-child{
+    margin-bottom: 70px;
+}
+.box-container .box .content .info .title{
+    font-size: 29px;
+    color: #fff;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
+.box-container .box .content .info .title span{
+    color: coral;   
+}
+.box-container .box .content .info .post{
+    display: block;
+    font-size: 18px;
+    color:#ccc;
+    padding-bottom: 32px;
+}
+
+.box-container .box .content .info a{
+    display: block;
+    color:#aaa;
+    padding:6px 0;
+}
+.box-container .box .content .info a:hover{
+    color:#fff
+}
+.box-container .box .share{
+    height: 274px;
+    background: #fff;
+    padding: 0 7px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-flow: column;
+    margin-left: auto;
